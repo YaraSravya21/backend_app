@@ -6,5 +6,4 @@ const userSchema = mongoose.Schema({
   role: { type: String,default:"user" },
 });
 const userModel = mongoose.model("users", userSchema);
-
 export default userModel;
